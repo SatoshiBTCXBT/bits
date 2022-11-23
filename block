@@ -1,0 +1,8 @@
+$ docker pull ghcr.io/OWNER/IMAGE_NAME:1.14.1
+  > 5e35bd43cf78: Pull complete
+  > 0c48c2209aab: Pull complete
+  > fd45dd1aad5a: Pull complete
+  > db6eb50c2d36: Pull complete
+  > Digest: sha256:ae3b135f133155b3824d8b1f62959ff8a72e9cf9e884d88db7895d8544010d8e
+  > Status: Downloaded newer image for ghcr.io/orgname/image-name/release:1.14.1
+  > ghcr.io/orgname/image-name/release:1.14.1
