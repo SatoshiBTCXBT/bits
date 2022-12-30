@@ -1,0 +1,10 @@
+0s
+Post job cleanup.
+/usr/bin/git version
+git version 2.38.2
+Temporarily overriding HOME='/home/runner/work/_temp/9366691a-baed-4bef-b594-a0be72960a8e' before making global git config changes
+Adding repository directory to the temporary git global config as a safe directory
+/usr/bin/git config --global --add safe.directory /home/runner/work/shiba-inu/shiba-inu
+/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
